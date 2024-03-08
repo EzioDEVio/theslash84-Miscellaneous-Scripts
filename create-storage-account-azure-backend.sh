@@ -4,7 +4,7 @@
 resourceGroupName="StorageAccountsRG"
 storageAccountName="ezioterraform"
 containerName="tfstate"
-location="WestEurope"
+location="eastus"
 sku="Standard_LRS"
 subscriptionName=$(az account show --query name --output tsv)
 
